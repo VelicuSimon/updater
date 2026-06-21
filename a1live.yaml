@@ -1,4 +1,4 @@
-version: 1.5
-sha256: 89a18c0f8865c7be44de17e0d1a17c1aad57e56c669c469ec1b6f4174a7c33f3
-notes: Fixes audio drift, adds standalone updater, and switches to folder-install layout.
+version: 1.6
+sha256: 280b92ce32d6e6c121149cd8e08307053a4f618c9b7994cf196fbf071d423ac6
+notes: Adds segment fetch retries, TLS fixes, and reliable live-edge gap bridging.
 mandatory: false
