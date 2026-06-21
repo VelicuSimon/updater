@@ -1,4 +1,4 @@
 version: 1.5
-sha256: 501062685ea8310e10bbae468932a871b01a3ac7fc0733472c56c65df30677f0
+sha256: 89a18c0f8865c7be44de17e0d1a17c1aad57e56c669c469ec1b6f4174a7c33f3
 notes: Fixes audio drift, adds standalone updater, and switches to folder-install layout.
 mandatory: false
