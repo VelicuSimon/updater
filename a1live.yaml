@@ -1,4 +1,4 @@
-version: 1.6
-sha256: 280b92ce32d6e6c121149cd8e08307053a4f618c9b7994cf196fbf071d423ac6
-notes: Adds segment fetch retries, TLS fixes, and reliable live-edge gap bridging.
+version: 1.7
+sha256: b9b23a43f30e3c3f64ed41755991ca545035fcf10aafb1b125fab57744383960
+notes: Fixes video freezing and loading loops by using a more reliable way to find the live edge of the broadcast, and reduces internet usage when the official stream check fails.
 mandatory: false
