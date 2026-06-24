@@ -1,4 +1,4 @@
-version: 1.7
-sha256: b9b23a43f30e3c3f64ed41755991ca545035fcf10aafb1b125fab57744383960
-notes: Fixes video freezing and loading loops by using a more reliable way to find the live edge of the broadcast, and reduces internet usage when the official stream check fails.
+version: 1.8
+sha256: b505e8685c656193eb86f6a823caf1daa80573ab00f9543973af3595c30b9329
+notes: Keeps the picture steady when the broadcast briefly drops out - instead of freezing or looping, the player now waits at the live edge and reconnects on its own, showing a short "reconnecting" message. Also lighter on your internet during those drop-outs.
 mandatory: false
