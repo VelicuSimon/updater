@@ -1,4 +1,4 @@
-version: 1.9
-sha256: 79b9edf2d3c4e9a7b8a7e58c9a36e58485de22d9a83e374fb1fc031ad3ce34ff
-notes: Uses an upgraded official stream feed when available, with automatic fallback if it drops. Pick the stream source in the player (Auto, Fetched playlist, or Manual). Recovers faster when playback hits a buffer gap during brief interruptions.
+version: 1.10
+sha256: 2b42d9e3b3f4e73bc73b23720a4e98c51c933a662d943bf9bf023a4dc3b7e3bb
+notes: Starts from the official Google stream feed for quicker startup, and automatically falls back to the local segment path if that feed fails. Choose Auto, Playlist, or Segments in the player. Recovers more smoothly from brief buffer gaps and signal drop-outs.
 mandatory: false
