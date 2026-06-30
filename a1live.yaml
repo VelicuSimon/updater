@@ -1,4 +1,4 @@
-version: 1.12
-sha256: e3b97c6b15bf12b7da1c59c455ff0d5176155bdc474e0c837adead38da093732
-notes: More reliable streaming in Segments mode, with automatic server restart if needed. Playback keeps going through brief signal interruptions, and your position is preserved when you reload or change quality.
+version: 1.13
+sha256: b46dd22b8bd568cf828a738019832e541e843c4b7db08bd393d7b84c621985d6
+notes: Bigger default window so the toolbar fits cleanly in Segments mode, with a minimum size that keeps the top buttons visible. The version number now appears only inside the player, not in the window title.
 mandatory: false
