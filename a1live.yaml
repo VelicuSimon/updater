@@ -1,4 +1,4 @@
-version: 1.10
-sha256: 2b42d9e3b3f4e73bc73b23720a4e98c51c933a662d943bf9bf023a4dc3b7e3bb
-notes: Starts from the official Google stream feed for quicker startup, and automatically falls back to the local segment path if that feed fails. Choose Auto, Playlist, or Segments in the player. Recovers more smoothly from brief buffer gaps and signal drop-outs.
+version: 1.11
+sha256: 59ee63ab993103143768cec8d87b18af9f5a68e7edcb63ea6d26da6427ada98b
+notes: Fixes playback stalls when the CDN serves incomplete or expired segments. The local playlist no longer advertises unready tail segments, and expired Google DAI segments fail fast instead of looping 502 errors.
 mandatory: false
