@@ -1,4 +1,4 @@
-version: 1.11
-sha256: 59ee63ab993103143768cec8d87b18af9f5a68e7edcb63ea6d26da6427ada98b
-notes: Fixes playback stalls when the CDN serves incomplete or expired segments. The local playlist no longer advertises unready tail segments, and expired Google DAI segments fail fast instead of looping 502 errors.
+version: 1.12
+sha256: e3b97c6b15bf12b7da1c59c455ff0d5176155bdc474e0c837adead38da093732
+notes: More reliable streaming in Segments mode, with automatic server restart if needed. Playback keeps going through brief signal interruptions, and your position is preserved when you reload or change quality.
 mandatory: false
