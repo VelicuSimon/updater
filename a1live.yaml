@@ -1,4 +1,4 @@
-version: 1.14
-sha256: 721420a62fa7bd2eda8ea5da37c3431ce21e4e2036c5c686f8b45f2b1275d815
-notes: Playlist mode now blocks malformed audio segments before playback and prefetches upcoming segments near the live edge, matching Segments mode protection.
+version: 1.13
+sha256: b46dd22b8bd568cf828a738019832e541e843c4b7db08bd393d7b84c621985d6
+notes: Bigger default window so the toolbar fits cleanly in Segments mode, with a minimum size that keeps the top buttons visible. The version number now appears only inside the player, not in the window title.
 mandatory: false
